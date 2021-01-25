@@ -1,0 +1,11 @@
+
+
+{
+    emobgiMessage : {
+        code : 'MINIMUM_AGE_DRIVER',
+        text : 'Sorry we ....'
+        options : {
+            age : 18
+        }
+    }
+}
