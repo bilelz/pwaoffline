@@ -1,5 +1,6 @@
 <template>
   <div class="files-list">
+    <h2>List of files</h2>
     <ul>
       <li v-for="(file, index) in list" :key="index">
         <a :href="file.path">
@@ -23,11 +24,11 @@ export default class FilesList extends Vue {
   list = [
     {
       name: 'pdf',
-      path: '../assets/CROQUIS 3 D761.pdf',
+      path: '../files/CROQUIS 3 D761.pdf',
     },
     {
       name: 'fullstack',
-      path: '../assets/fullstack.jpg',
+      path: '../files/fullstack.jpg',
     },
   ];
 
